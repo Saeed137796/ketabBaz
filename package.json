@@ -1,0 +1,24 @@
+{
+  "name": "ketabbaz",
+  "version": "1.0.0",
+  "description": "this is global book store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ketabBazz"
+  ],
+  "author": "Saeed Nabati",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "winston": "^3.3.3",
+    "auto-bind": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "morgan": "^1.10.0"
+  }
+}
