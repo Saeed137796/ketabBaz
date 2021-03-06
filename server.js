@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-
+app.use(express.urlencoded({extended:true}));
 app.use(require('./http/middlewares/morgan'));
 app.use(require('./http/middlewares/errorHandler'));
 
